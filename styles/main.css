@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, nav, main, footer {
@@ -10,7 +11,7 @@ header, nav, main, footer {
 
 header, footer {
     background-color: navy;
-    color: navajowhite;
+    color: white;
     text-align: center;
 }
     
