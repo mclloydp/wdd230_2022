@@ -44,8 +44,12 @@
         </section>
     </main>
     <footer>
-        &copy; 2022 | McLloyd's WDD 230: Assignment Portal | All Rights Reserved |
+        &copy; 2022 | McLloyd's WDD 230: Assignment Portal | All Rights Reserved | Last Modified: <span id='lastupdated'></span>
     </footer>
+    <script>
+        document.getElementById('lastupdated').textContent = new Date(document.lastModified); 
+        
+    </script>
 
 </body>
 
