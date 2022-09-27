@@ -4,29 +4,40 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
 header {
-  
-  background-color: rgb(77, 77, 77);
+  background-color: rgb(49, 49, 75);
   color: white;
   padding: 10px;
   text-align: center;
 }
 
 h2 {
-  background-color: rgb(92, 145, 92);
+  padding: 10px;
 }
 
-header,
-main {
-  margin: 1.25rem auto;
-  max-width: 760px;
+h1 {
+  font-style: italic;
 }
-main {
-  display: grid;
-  grid-template-columns: 3fr;
+
+.sec1,
+.sec2,
+.sec3 {
+  background-color: lightgrey;
+  margin: 10px;
+  border-radius: 25px;
 }
-section {
-  margin: 1.25rem auto;
-  max-width: 100%;
+
+h3,
+a {
+  padding: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+img {
+  width: 95%;
+  padding: 10px;
 }
