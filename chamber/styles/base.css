@@ -71,3 +71,9 @@ header, nav, main, footer {
     align-items: center;
     border-style: ridge;
 }
+
+section {
+	margin: 0 auto;
+    align-items: center;
+    border-style: ridge;
+}
